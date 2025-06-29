@@ -1,0 +1,15 @@
+{
+    "name": "gemini-server",
+    "version": "1.0.0",
+    "description": "API for forwarding requests to Gemini",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^17.0.0",
+        "express": "^4.18.2",
+        "node-fetch": "^2.6.7"
+    }
+}
